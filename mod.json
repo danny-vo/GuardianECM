@@ -1,0 +1,19 @@
+{
+	"Name": "GuardianECM",
+	"Enabled": true,
+    "Version": "1.0.0",
+    "Description": "Implements the Guardian ECM",
+	"Author": "danny-vo",
+
+    "Manifest": [
+        {
+            "Type": "ItemCollectionDef",
+            "Path": "itemCollections/",
+            "ShouldAppendText": true
+        },
+        {
+            "Type": "UpgradeDef",
+            "Path": "upgrades/"
+        }
+    ]
+}
